@@ -13,7 +13,7 @@ This page will guide you through the steps to run an analysis that explains Copi
 2. Using a .xltm file to run several formulas to stage your data file (runtime ~10min).
 3. Importing the data into a Power BI Template. 
 
-### **To begin, please start by downloading the [DecodingSuperUsage GitHub Repo ZIP file](https://github.com/jordanking_microsoft/DecodingSuperUsage/archive/refs/heads/DecodingSuperUsage.zip) and extract its contents to your local machine. This will contain the .pbit file, the .xltm file, the README file, and the images that go with the README file.**
+### **To begin, please start by downloading the [DecodingSuperUsage GitHub Repo ZIP file](https://github.com/microsoft/DecodingSuperUsage/archive/refs/heads/DecodingSuperUsage.zip) and extract its contents to your local machine. This will contain the .pbit file, the .xltm file, the README file, and the images that go with the README file.**
 
 ## <h2>Part 1: Creating a Custom Query and Exporting Data from Viva Insights</h2>
 
@@ -21,7 +21,7 @@ This page will guide you through the steps to run an analysis that explains Copi
 1. Navigate to [Viva Insights](https://analysis.insights.viva.office.com/) -> Home -> Create customised query -> Person Query
 2. Select Time period: Last 6 Months
 3. Select metrics: Add metrics and select from the below groupings
-<img src="https://github.com/jordanking_microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/groupings.png" alt="groupings">
+<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/groupings.png" alt="groupings">
 
 ### **Step 2: Selecting Employees and Attributes to include**
 1. Set "Is Active = True"
@@ -37,14 +37,14 @@ This page will guide you through the steps to run an analysis that explains Copi
 
 **NOTE: If you are running the macro and you are concerned the spreadsheet has frozen, look in the bottom right hand corner. If you see the image below, this means the macro is still processing. The macro slows down some when calculating the percentiles, but then it speeds back up.**
 
-<img src="https://github.com/jordanking_microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/calculating.png" alt="Calculating">
+<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/calculating.png" alt="Calculating">
 
 Please report any issues (where you are forced to debug the macro, or where the Office Script fails) to jordanking@microsoft.com.
 
 **FOR BEST RESULTS, USE FRESHLY EXPORTED DATA OR ENSURE YOUR COPY/PASTE AREAS ARE CLEAN**
 
 ### **Step 1: If you haven't downloaded and extracted the .zip file, then download the .xltm File**
-1. **[Click here to download the CalculateAll.xltm file](https://github.com/jordanking_microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/CalculateAll.xltm).**
+1. **[Click here to download the CalculateAll.xltm file](https://github.com/microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/CalculateAll.xltm).**
 
 ### **Step 2: Open the Source File and Copy Data**
 1. Open Excel.
@@ -62,13 +62,13 @@ Please report any issues (where you are forced to debug the macro, or where the 
 ### **Step 4: Enable Macros**
 1. If prompted, click Enable Content to allow macros to run.
 
-<img src="https://github.com/jordanking_microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/enablemacro.png" alt="Enable Macros">
+<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/enablemacro.png" alt="Enable Macros">
 
 ### **Step 5: Run the Macro**
 1. Press Alt + F8 to open the Macro dialog box.
     - **Note: If your keyboard does not have function keys, you can access the Macro dialog box by going to the Developer tab (if enabled) and clicking on Macros. If the Developer tab is not visible, you can enable it by going to Excel Options> Customize Ribbon > Main Tabs > Checking Developer and clicking Apply.**
 
-<img src="https://github.com/jordanking_microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/macrobox.png" alt="Macro Dialog Box">
+<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/macrobox.png" alt="Macro Dialog Box">
 
 2. Select the macro you want to run (e.g., CalculateAll).
 3. Click Run. Estimated run time: 10 minutes, but this may depend on local system resources.
@@ -81,14 +81,14 @@ Please report any issues (where you are forced to debug the macro, or where the 
 2. Right click on the file, select Copy As Path
 
 ### **Step 2: Download and Open the Power BI Template**
-1. If you haven't downloaded the Power BI Template already through the ZIP file, [click here to download the Decoding Super Usage Template Power BI Template](https://github.com/jordanking_microsoft/decodingsuperusage/raw/DecodingSuperUsage/Decoding%20Super%20Usage%20v6.pbit).
+1. If you haven't downloaded the Power BI Template already through the ZIP file, [click here to download the Decoding Super Usage Template Power BI Template](https://github.com/microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/Decoding%20Super%20Usage%20v6.pbit).
 2. Browse to the download location and double click the .pbit file to open the file
     - You may also right click the file, and select Open.
 4. Wait for Power BI Desktop to Load, where you will be prompted with a Query box for a file location.
 5. Paste the location into the query box without quotations
     - Note: Copying as path will include quotations. 
 5. Select Load.
-<img src="https://github.com/jordanking_microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/filepath.png" alt="File Path">
+<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/filepath.png" alt="File Path">
 
 ### **Step 3: Wait for Data to Load.**
 1. Once loaded, you may begin expanding your visuals and dashboard.
