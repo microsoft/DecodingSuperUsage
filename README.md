@@ -49,10 +49,7 @@ Please report any issues (where you are forced to debug the macro, or where the 
 ### **Step 2: Open the Source File and Copy Data**
 1. Open Excel.
 2. Go to File > Open and navigate to the location of your source file containing the data.
-3. Select the file and click Open.
-   
-    -**Note**: If you are opening a .csv file, and are prompted to Convert or Don't Convert...choose 'Convert'.
-
+3. Select the file and click Open (**Note**: If you are opening a .csv file, and are prompted to Convert or Don't Convert...choose 'Convert'.)
 5. Select all the data in the source file (you can use Ctrl + A to select all).
 6. Copy the data (you can use Ctrl + C).
 
