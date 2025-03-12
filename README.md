@@ -49,20 +49,24 @@ Please report any issues (where you are forced to debug the macro, or where the 
 ### **Step 2: Open the Source File and Copy Data**
 1. Open Excel.
 2. Go to File > Open and navigate to the location of your source file containing the data.
-3. Select the file and click Open (**Note**: If you are opening a .csv file, and are prompted to Convert or Don't Convert...choose 'Convert'.)
+3. Select the file and click Open (**Note**: If you are opening a .CSV file, and are prompted to Convert or Don't Convert...choose 'Convert'.)
 5. Select all the data in the source file (you can use Ctrl + A to select all).
 6. Copy the data (you can use Ctrl + C).
 
-### **Step 3: Open the .xltm File and Paste Data**
-1. Open Excel.
-2. Go to File > Open and navigate to the location of your downloaded CalculateAll.xltm file.
-3. Select the file and click Open.
+### **Step 3: Open the .xltm File**
+1. Navigate to where you downloaded or extracted the .xltm file
+2. Double-click on the Calculateall.xltm file to open it.
+
+### **Step 4: Enable Macros and paste data into CalculateAll.xltm worksheet**
+1. If you see the image below, [click here to troubleshoot](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Troubleshooting.md).
+**If you don't see the warning below, proceed to step 2.**
+<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/risk.png" alt="Security Risk">
+
+3. If prompted, click Enable Content to allow macros to run.
+<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/enablemacro.png" alt="Enable Macros">
+
 4. Paste the copied data into the appropriate worksheet in the .xltm file (you can use Ctrl + V).
 
-### **Step 4: Enable Macros**
-1. If prompted, click Enable Content to allow macros to run.
-
-<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/enablemacro.png" alt="Enable Macros">
 
 ### **Step 5: Run the Macro**
 1. Press Alt + F8 to open the Macro dialog box.
