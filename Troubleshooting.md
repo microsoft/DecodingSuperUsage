@@ -4,10 +4,10 @@
 1. **Navigate to the location where you downloaded the .xltm file.**
 2. **Right-click on the file and select Properties.**
 
-<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/properties.png" alt="properties">
+<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/properties.png" alt="properties">
 
 4. **In the Properties window, look for a section at the bottom about security with a warning that "This file came from another computer and might be blocked to help protect this computer."**
 5. **Check the box labeled Unblock.**
 6. **Click Apply and then OK to close the Properties window.**
 
-<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/unblock.png" alt="unblock">
+<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/unblock.png" alt="unblock">
