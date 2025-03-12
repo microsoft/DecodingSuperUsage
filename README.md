@@ -62,10 +62,10 @@ Please report any issues (where you are forced to debug the macro, or where the 
 **If you don't see the warning below, proceed to step 2.**
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/risk.png" alt="Security Risk">
 
-3. If prompted, click Enable Content to allow macros to run.
+2. If prompted, click Enable Content to allow macros to run.
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/enablemacro.png" alt="Enable Macros">
 
-4. Paste the copied data into the appropriate worksheet in the .xltm file (you can use Ctrl + V).
+3. Paste the copied data into the appropriate worksheet in the .xltm file (you can use Ctrl + V).
 
 
 ### **Step 5: Run the Macro**
