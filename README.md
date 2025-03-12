@@ -1,33 +1,94 @@
-# Project
+# Overview
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This page will guide you through the steps to run an analysis that explains Copilot super usage. With this analysis, you will be able to examine how you are using Copilot, drive adoption on the path to realizing ROI. 
 
-As the maintainer of this project, please make a few updates:
+**You will be able to unpack:**
+1. **Habits:** determine how many daily/weekly/monthly Copilot actions lead to structural usage (e.g. norm = 11-16 actions per week tipping point after which usage accelerates quickly)
+2. **Journey:** understand how some early adopters turn into super users, what they are using Copilot for, and if super usage is sustainable
+3. **Confidence:** discover if super users are concentrating their actions in one app or multiple app
+4. **Profiles:** learn what were the collaboration profiles of super users, what impact is it having on their work patterns
+ 
+**We will take you through 3 steps:** 
+1. Exporting data from Viva Insights.
+2. Using a .xltm file to run several formulas to stage your data file (runtime ~10min).
+3. Importing the data into a Power BI Template. 
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+### **To begin, please start by downloading the [DecodingSuperUsage GitHub Repo ZIP file](https://github.com/jordanking_microsoft/DecodingSuperUsage/archive/refs/heads/DecodingSuperUsage.zip) and extract its contents to your local machine. This will contain the .pbit file, the .xltm file, the README file, and the images that go with the README file.**
 
-## Contributing
+## <h2>Part 1: Creating a Custom Query and Exporting Data from Viva Insights</h2>
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+### **Step 1: Creating the query**
+1. Navigate to [Viva Insights](https://analysis.insights.viva.office.com/) -> Home -> Create customised query -> Person Query
+2. Select Time period: Last 6 Months
+3. Select metrics: Add metrics and select from the below groupings
+<img src="https://github.com/jordanking_microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/groupings.png" alt="groupings">
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+### **Step 2: Selecting Employees and Attributes to include**
+1. Set "Is Active = True"
+2. Select which employee attribute(s) you want to include
+   -Note: The template works without any organizational/demographic data, but it is recommended to include a few such as organization, supervisor indicator, timezone, etc. 
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+### **Step 3: Download the csv.**
+1. Do not modify the csv/xlsx. You will need to copy the raw data into the file included in Part 2.
+2. When you do open the csv, and are asked to convert or don't convert, choose "Convert".
 
-## Trademarks
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+## <h2>Part 2: Using a .xltm File to Run the CalculateAll Macro</h2>
+
+**NOTE: If you are running the macro and you are concerned the spreadsheet has frozen, look in the bottom right hand corner. If you see the image below, this means the macro is still processing. The macro slows down some when calculating the percentiles, but then it speeds back up.**
+
+<img src="https://github.com/jordanking_microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/calculating.png" alt="Calculating">
+
+Please report any issues (where you are forced to debug the macro, or where the Office Script fails) to jordanking@microsoft.com.
+
+**FOR BEST RESULTS, USE FRESHLY EXPORTED DATA OR ENSURE YOUR COPY/PASTE AREAS ARE CLEAN**
+
+### **Step 1: If you haven't downloaded and extracted the .zip file, then download the .xltm File**
+1. **[Click here to download the CalculateAll.xltm file](https://github.com/jordanking_microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/CalculateAll.xltm).**
+
+### **Step 2: Open the Source File and Copy Data**
+1. Open Excel.
+2. Go to File > Open and navigate to the location of your source file containing the data.
+3. Select the file and click Open.
+4. Select all the data in the source file (you can use Ctrl + A to select all).
+5. Copy the data (you can use Ctrl + C).
+
+### **Step 3: Open the .xltm File and Paste Data**
+1. Open Excel.
+2. Go to File > Open and navigate to the location of your downloaded CalculateAll.xltm file.
+3. Select the file and click Open.
+4. Paste the copied data into the appropriate worksheet in the .xltm file (you can use Ctrl + V).
+
+### **Step 4: Enable Macros**
+1. If prompted, click Enable Content to allow macros to run.
+
+<img src="https://github.com/jordanking_microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/enablemacro.png" alt="Enable Macros">
+
+### **Step 5: Run the Macro**
+1. Press Alt + F8 to open the Macro dialog box.
+    - **Note: If your keyboard does not have function keys, you can access the Macro dialog box by going to the Developer tab (if enabled) and clicking on Macros. If the Developer tab is not visible, you can enable it by going to Excel Options> Customize Ribbon > Main Tabs > Checking Developer and clicking Apply.**
+
+<img src="https://github.com/jordanking_microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/macrobox.png" alt="Macro Dialog Box">
+
+2. Select the macro you want to run (e.g., CalculateAll).
+3. Click Run. Estimated run time: 10 minutes, but this may depend on local system resources.
+4. **Save your file.**
+
+## <h2> Part 3: Importing data into Power BI Desktop using the template</h2>
+
+### **Step 1: Copy File Path**
+1. Browse to the csv/xlsx file you saved in Part 2 using File Explorer
+2. Right click on the file, select Copy As Path
+
+### **Step 2: Download and Open the Power BI Template**
+1. If you haven't downloaded the Power BI Template already through the ZIP file, [click here to download the Decoding Super Usage Template Power BI Template](https://github.com/jordanking_microsoft/decodingsuperusage/raw/DecodingSuperUsage/Decoding%20Super%20Usage%20v6.pbit).
+2. Browse to the download location and double click the .pbit file to open the file
+    - You may also right click the file, and select Open.
+4. Wait for Power BI Desktop to Load, where you will be prompted with a Query box for a file location.
+5. Paste the location into the query box without quotations
+    - Note: Copying as path will include quotations. 
+5. Select Load.
+<img src="https://github.com/jordanking_microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/filepath.png" alt="File Path">
+
+### **Step 3: Wait for Data to Load.**
+1. Once loaded, you may begin expanding your visuals and dashboard.
