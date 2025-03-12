@@ -13,7 +13,7 @@ This page will guide you through the steps to run an analysis that explains Copi
 2. Using a .xltm file to run several formulas to stage your data file (runtime ~10min).
 3. Importing the data into a Power BI Template. 
 
-### **To begin, please start by downloading the [DecodingSuperUsage GitHub Repo ZIP file](https://github.com/microsoft/DecodingSuperUsage/archive/refs/heads/DecodingSuperUsage.zip) and extract its contents to your local machine. This will contain the .pbit file, the .xltm file, the README file, and the images that go with the README file.**
+### **To begin, please download the [DecodingSuperUsage GitHub Repo ZIP file](https://github.com/microsoft/DecodingSuperUsage/archive/refs/heads/DecodingSuperUsage.zip) and extract its contents to your local machine.**
 
 ## <h2>Part 1: Creating a Custom Query and Exporting Data from Viva Insights</h2>
 
