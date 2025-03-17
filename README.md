@@ -85,7 +85,7 @@ Please report any issues (where you are forced to debug the macro, or where the 
 2. Right click on the file, select Copy As Path
 
 ### **Step 2: Download and Open the Power BI Template**
-1. If you haven't downloaded the Power BI Template already through the ZIP file, [click here to download the Decoding Super Usage Template Power BI Template](https://github.com/microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/Decoding%20Super%20Usage%20v6.pbit).
+1. If you haven't downloaded the Power BI Template already through the ZIP file, [click here to download the Decoding Super Usage Template Power BI Template](https://github.com/microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/Decoding%20Super%20Usage%20v9.pbit).
 2. Browse to the download location and double click the .pbit file to open the file
     - You may also right click the file, and select Open.
 4. Wait for Power BI Desktop to Load, where you will be prompted with a Query box for a file location.
