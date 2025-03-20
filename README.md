@@ -46,7 +46,7 @@ Please report any issues (where you are forced to debug the macro, or where the 
 ### **Step 1: If you haven't downloaded and extracted the .zip file, then download the .xltm File**
 1. **[Click here to download the CalculateAll.xltm file](https://github.com/microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/CalculateAll.xltm).**
 
-### **Step 2: Open the Source File and Copy Data**
+### **Step 2: Copy and Paste Data From .csv to .xltm**
 1. Open Excel.
 2. Go to File > Open and navigate to the location of your source file containing the data.
 3. Select the file and click Open (**Note**: If you are opening a .CSV file, and are prompted to Convert or Don't Convert...choose 'Convert'.)
@@ -70,7 +70,7 @@ Please report any issues (where you are forced to debug the macro, or where the 
 
 ### **Step 5: Run the Macro**
 1. Press Alt + F8 to open the Macro dialog box.
-    - **Note: If your keyboard does not have function keys, you can access the Macro dialog box by going to the Developer tab (if enabled) and clicking on Macros. If the Developer tab is not visible, you can enable it by going to Excel Options> Customize Ribbon > Main Tabs > Checking Developer and clicking Apply.**
+    - Note: If your keyboard does not have function keys, you can access the Macro dialog box by going to the Developer tab (if enabled) and clicking on Macros. If the Developer tab is not visible, you can enable it by going to Excel Options> Customize Ribbon > Main Tabs > Checking Developer and clicking Apply.
 
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/macrobox.png" alt="Macro Dialog Box">
 
@@ -86,13 +86,9 @@ Please report any issues (where you are forced to debug the macro, or where the 
 
 ### **Step 2: Download and Open the Power BI Template**
 1. If you haven't downloaded the Power BI Template already through the ZIP file, [click here to download the Decoding Super Usage Template Power BI Template](https://github.com/microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/Decoding%20Super%20Usage%20v9.pbit).
-2. Browse to the download location and double click the .pbit file to open the file
-    - You may also right click the file, and select Open.
-4. Wait for Power BI Desktop to Load, where you will be prompted with a Query box for a file location.
-5. Paste the location into the query box without quotations
+2. Open the .pbit file. You will be prompted with a query box for a file location.
+3. Paste the location into the query box without quotations
     - Note: Copying as path will include quotations. 
-5. Select Load.
+4. Select Load.
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/filepath.png" alt="File Path">
 
-### **Step 3: Wait for Data to Load.**
-1. Once loaded, you may begin expanding your visuals and dashboard.
