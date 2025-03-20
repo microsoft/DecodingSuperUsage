@@ -33,42 +33,28 @@ This page will guide you through the steps to run an analysis that explains Copi
 2. When you do open the csv, and are asked to convert or don't convert, choose "Convert".
 
 
-## <h2>Part 2: Using a .xltm File to Run the CalculateAll Macro</h2>
-
-**NOTE: If you are running the macro and you are concerned the spreadsheet has frozen, look in the bottom right hand corner. If you see the image below, this means the macro is still processing. The macro slows down some when calculating the percentiles, but then it speeds back up.**
-
-<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/calculating.png" alt="Calculating">
-
-Please report any issues (where you are forced to debug the macro, or where the Office Script fails) to jordanking@microsoft.com.
-
-**FOR BEST RESULTS, USE FRESHLY EXPORTED DATA OR ENSURE YOUR COPY/PASTE AREAS ARE CLEAN**
+## <h2>Part 2: Run the CalculateAll Macro</h2>
 
 ### **Step 1: If you haven't downloaded and extracted the .zip file, then download the .xltm File**
 1. **[Click here to download the CalculateAll.xltm file](https://github.com/microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/CalculateAll.xltm).**
 
-### **Step 2: Copy and Paste Data From .csv to .xltm**
-1. Open Excel.
-2. Go to File > Open and navigate to the location of your source file containing the data.
-3. Select the file and click Open (**Note**: If you are opening a .CSV file, and are prompted to Convert or Don't Convert...choose 'Convert'.)
-5. Select all the data in the source file (you can use Ctrl + A to select all).
-6. Copy the data (you can use Ctrl + C).
+### **Step 2: Copy Data From .csv File**
+1. Go to Excel> File > Open and navigate to the location of your source file containing the data.
+2. Select the file and click Open (**Note**: If you are opening a .CSV file, and are prompted to Convert or Don't Convert...choose 'Convert'.)
+3. Copy all the data in the source file.
 
-### **Step 3: Open the .xltm File**
-1. Navigate to where you downloaded or extracted the .xltm file
-2. Double-click on the Calculateall.xltm file to open it.
-
-### **Step 4: Enable Macros and paste data into CalculateAll.xltm worksheet**
-1. If you see the image below, [click here to troubleshoot](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Troubleshooting.md).
+### **Step 3: Enable Macros and paste data into CalculateAll.xltm worksheet**
+1. Open the CalculateAll.xltm file
+2. If you see the image below, [click here to troubleshoot](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Troubleshooting.md).
 **If you don't see the warning below, proceed to step 2.**
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/risk.png" alt="Security Risk">
 
-2. If prompted, click Enable Content to allow macros to run.
+3. If prompted, click Enable Content to allow macros to run.
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/enablemacro.png" alt="Enable Macros">
 
-3. Paste the copied data into the appropriate worksheet in the .xltm file (you can use Ctrl + V).
+4. Paste the copied data into the appropriate worksheet in the .xltm file (you can use Ctrl + V).
 
-
-### **Step 5: Run the Macro**
+### **Step 4: Run the Macro**
 1. Press Alt + F8 to open the Macro dialog box.
     - Note: If your keyboard does not have function keys, you can access the Macro dialog box by going to the Developer tab (if enabled) and clicking on Macros. If the Developer tab is not visible, you can enable it by going to Excel Options> Customize Ribbon > Main Tabs > Checking Developer and clicking Apply.
 
@@ -78,17 +64,19 @@ Please report any issues (where you are forced to debug the macro, or where the 
 3. Click Run. Estimated run time: 10 minutes, but this may depend on local system resources.
 4. **Save your file.**
 
-## <h2> Part 3: Importing data into Power BI Desktop using the template</h2>
+## <h2> Part 3: Load the .pbit </h2>
 
 ### **Step 1: Copy File Path**
 1. Browse to the csv/xlsx file you saved in Part 2 using File Explorer
 2. Right click on the file, select Copy As Path
 
-### **Step 2: Download and Open the Power BI Template**
+### **Step 2: Load the template**
 1. If you haven't downloaded the Power BI Template already through the ZIP file, [click here to download the Decoding Super Usage Template Power BI Template](https://github.com/microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/Decoding%20Super%20Usage%20v9.pbit).
 2. Open the .pbit file. You will be prompted with a query box for a file location.
 3. Paste the location into the query box without quotations
     - Note: Copying as path will include quotations. 
 4. Select Load.
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/filepath.png" alt="File Path">
+
+Please report any issues (where you are forced to debug the macro, or where the Office Script fails) to jordanking@microsoft.com.
 
