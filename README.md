@@ -10,20 +10,20 @@ This page will guide you through the steps to run an analysis that explains Copi
  
 **We will take you through 3 steps:** 
 1. Exporting data from Viva Insights.
-2. Using a .xltm file to run several formulas to stage your data file (runtime ~10min).
+2. Stage your data by running a macro (runtime ~10 min for ~2K employees over 6 months).
 3. Importing the data into a Power BI Template. 
 
 ### **To begin, please download the [DecodingSuperUsage GitHub Repo ZIP file](https://github.com/microsoft/DecodingSuperUsage/archive/refs/heads/DecodingSuperUsage.zip) and extract its contents to your local machine.**
 
-## <h2>Part 1: Creating a Custom Query and Exporting Data from Viva Insights</h2>
+## <h2>Part 1: Creating a custom query and exporting data from Viva Insights </h2>
 
 ### **Step 1: Creating the query**
-1. Navigate to [Viva Insights](https://analysis.insights.viva.office.com/) -> Home -> Create customised query -> Person Query
+1. Navigate to [Viva Insights](https://analysis.insights.viva.office.com/) -> Home -> Create custom query -> Person Query
 2. Select Time period: Last 6 Months
 3. Select metrics: Add metrics and select from the below groupings
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/groupings.png" alt="groupings">
 
-### **Step 2: Selecting Employees and Attributes to include**
+### **Step 2: Selecting analysis population and attributes to include**
 1. Set "Is Active = True"
 2. Select which employee attribute(s) you want to include
    -Note: The template works without any organizational/demographic data, but it is recommended to include a few such as organization, supervisor indicator, timezone, etc. 
@@ -38,12 +38,11 @@ This page will guide you through the steps to run an analysis that explains Copi
 ### **Step 1: If you haven't downloaded and extracted the .zip file, then download the .xltm File**
 1. **[Click here to download the CalculateAll.xltm file](https://github.com/microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/CalculateAll.xltm).**
 
-### **Step 2: Copy Data From .csv File**
-1. Go to Excel> File > Open and navigate to the location of your source file containing the data.
-2. Select the file and click Open (**Note**: If you are opening a .CSV file, and are prompted to Convert or Don't Convert...choose 'Convert'.)
-3. Copy all the data in the source file.
+### **Step 2: Copy data From .csv File**
+1. Open the source .csv file (**Note**: If you are opening a .CSV file, and are prompted to Convert or Don't Convert...choose 'Convert'.)
+2. Copy all the data in the source file.
 
-### **Step 3: Enable Macros and paste data into CalculateAll.xltm worksheet**
+### **Step 3: Enable macros and paste data into CalculateAll.xltm worksheet**
 1. Open the CalculateAll.xltm file
 2. If you see the image below, [click here to troubleshoot](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Troubleshooting.md).
 **If you don't see the warning below, proceed to step 2.**
@@ -52,22 +51,22 @@ This page will guide you through the steps to run an analysis that explains Copi
 3. If prompted, click Enable Content to allow macros to run.
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/enablemacro.png" alt="Enable Macros">
 
-4. Paste the copied data into the appropriate worksheet in the .xltm file (you can use Ctrl + V).
+4. Paste the copied data into .xltm file.
 
-### **Step 4: Run the Macro**
+### **Step 4: Run the macro**
 1. Press Alt + F8 to open the Macro dialog box.
     - Note: If your keyboard does not have function keys, you can access the Macro dialog box by going to the Developer tab (if enabled) and clicking on Macros. If the Developer tab is not visible, you can enable it by going to Excel Options> Customize Ribbon > Main Tabs > Checking Developer and clicking Apply.
 
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/macrobox.png" alt="Macro Dialog Box">
 
 2. Select the macro you want to run (e.g., CalculateAll).
-3. Click Run. Estimated run time: 10 minutes, but this may depend on local system resources.
+3. Click Run. Estimated run time: 10 minutes (for 2k employees), but this may depend on local system resources.
 4. **Save your file.**
 
 ## <h2> Part 3: Load the .pbit </h2>
 
-### **Step 1: Copy File Path**
-1. Browse to the csv/xlsx file you saved in Part 2 using File Explorer
+### **Step 1: Copy file path**
+1. Browse to the xlsx file you saved in Part 2 using File Explorer
 2. Right click on the file, select Copy As Path
 
 ### **Step 2: Load the template**
