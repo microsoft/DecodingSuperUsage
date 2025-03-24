@@ -45,7 +45,7 @@ This page will guide you through the steps to run an analysis that explains Copi
 ### **Step 3: Enable macros and paste data into CalculateAll.xltm worksheet**
 1. Open the CalculateAll.xltm file
 2. If you see the image below, [click here to troubleshoot](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Troubleshooting.md).
-**If you don't see the warning below, proceed to step 2.**
+**If you don't see the warnings below, proceed to step 4.**
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/risk.png" alt="Security Risk">
 
 3. If prompted, click Enable Content to allow macros to run.
