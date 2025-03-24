@@ -1,6 +1,6 @@
 # INSTRUCTIONS
 
-This page will guide you through the steps to run an analysis that explains Copilot super usage. With this analysis, you will be able to examine how you are using Copilot, drive adoption on the path to realizing ROI. 
+This page will guide you through the steps to run an analysis that explains Copilot super usage. With this analysis, you will be able to examine how your organization is using Copilot, what changes are taking place, and how to drive adoption on the path to realizing ROI. 
 
 **You will be able to unpack:**
 1. **Habits:** determine how many daily/weekly/monthly Copilot actions lead to structural usage (e.g. norm = 11-16 actions per week tipping point after which usage accelerates quickly)
