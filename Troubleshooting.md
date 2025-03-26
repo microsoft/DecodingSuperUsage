@@ -12,13 +12,17 @@
 
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/unblock.png" alt="unblock">
 
-## <h2>Unblocking Macros</h2>
+## <h2>Run-Time Error 1004</h2>
 
 When Running the Macro, you may come across this error:
 
-If you click Debug, Excel will Open Visual Basic and likely highlight a line of text that says ".DataBodyRange...etc.etc.etc"
+<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/1004.png" alt="properties">
+
+If you click 'Debug', Excel will Open Visual Basic and likely highlight a line of text that says ".DataBodyRange...etc.etc.etc"
 
 While this doesn't make immediate sense, the highlight is actually referencing the formula above it. The formula in ths macro cannot find a value in the header row in excel.
+
+<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/1004dot2.png" alt="unblock">
 
 To solve this, look at the formula above the highlighted section and compare it to row 1 (your header row) in your Viva Insights export. Do all of the values exist? Please keep in mind, the values are the formula are case sensitive. 
 
