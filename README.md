@@ -70,11 +70,10 @@ This page will guide you through the steps to run an analysis that explains Copi
 2. Right click on the file, select Copy As Path
 
 ### **Step 2: Load the template**
-1. If you haven't downloaded the Power BI Template already through the ZIP file, [click here to download the Decoding Super Usage Template Power BI Template](https://github.com/microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/Decoding%20Super%20Usage%20v9.pbit).
-2. Open the .pbit file. You will be prompted with a query box for a file location.
-3. Paste the location into the query box without quotations
+1. Open the .pbit file. You will be prompted with a query box for a file location.
+2. Paste the location into the query box without quotations
     - Note: Copying as path will include quotations. 
-4. Select Load.
+3. Select Load.
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/filepath.png" alt="File Path">
 
 Please report any issues (where you are forced to debug the macro, or where the Office Script fails) to jordanking@microsoft.com.
