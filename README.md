@@ -8,10 +8,9 @@ This page will guide you through the steps to run an analysis that explains Copi
 3. **Confidence:** discover if super users are concentrating their actions in one app or multiple app
 4. **Profiles:** learn what were the collaboration profiles of super users, what impact is it having on their work patterns
  
-**We will take you through 3 steps:** 
+**We will take you through 2 steps:** 
 1. Exporting data from Viva Insights.
-2. Stage your data by running a macro (runtime ~10 min for ~2K employees over 6 months).
-3. Importing the data into a Power BI Template. 
+2. Importing the data into a Power BI Template. 
 
 ### **To begin, please download the [DecodingSuperUsage GitHub Repo ZIP file](https://github.com/microsoft/DecodingSuperUsage/archive/refs/heads/DecodingSuperUsage.zip) and extract its contents to your local machine.**
 
@@ -29,44 +28,14 @@ This page will guide you through the steps to run an analysis that explains Copi
    -Note: The template works without any organizational/demographic data, but it is recommended to include a few such as organization, supervisor indicator, timezone, etc. 
 
 ### **Step 3: Download the csv.**
-1. Do not modify the csv/xlsx. You will need to copy the raw data into the file included in Part 2.
-2. When you do open the csv, and are asked to convert or don't convert, choose "Convert".
+1. Once the query finishes running, download the csv. 
 
 
-## <h2>Part 2: Run the CalculateAll Macro</h2>
 
-### **Step 1: If you haven't downloaded and extracted the .zip file, then download the .xltm File**
-1. **[Click here to download the CalculateAll.xltm file](https://github.com/microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/CalculateAll.xltm).**
-
-### **Step 2: Copy data From .csv File**
-1. Open the source .csv file (**Note**: If you are opening a .CSV file, and are prompted to Convert or Don't Convert...choose 'Convert'.)
-2. Copy all the data in the source file.
-
-### **Step 3: Enable macros and paste data into CalculateAll.xltm worksheet**
-1. Open the CalculateAll.xltm file
-2. If you see the image below, [click here to troubleshoot](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Troubleshooting.md).
-**If you don't see the warnings below, proceed to step 4.**
-<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/risk.png" alt="Security Risk">
-
-3. If prompted, click Enable Content to allow macros to run.
-<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/enablemacro.png" alt="Enable Macros">
-
-4. Paste the copied data into .xltm file.
-
-### **Step 4: Run the macro**
-1. Press Alt + F8 to open the Macro dialog box.
-    - Note: If your keyboard does not have function keys, you can access the Macro dialog box by going to the Developer tab (if enabled) and clicking on Macros. If the Developer tab is not visible, you can enable it by going to Excel Options> Customize Ribbon > Main Tabs > Checking Developer and clicking Apply.
-
-<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/macrobox.png" alt="Macro Dialog Box">
-
-2. Select the macro you want to run (e.g., CalculateAll).
-3. Click Run. Estimated run time: 10 minutes (for 2k employees), but this may depend on local system resources.
-4. **Save your file.**
-
-## <h2> Part 3: Load the .pbit </h2>
+## <h2> Part 2: Load the .pbit </h2>
 
 ### **Step 1: Copy file path**
-1. Browse to the xlsx file you saved in Part 2 using File Explorer
+1. Browse to the csv file you saved in Part 1 using File Explorer
 2. Right click on the file, select Copy As Path
 
 ### **Step 2: Load the template**
@@ -76,5 +45,5 @@ This page will guide you through the steps to run an analysis that explains Copi
 3. Select Load.
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/filepath.png" alt="File Path">
 
-Please report any issues (where you are forced to debug the macro, or where the Office Script fails) to jordanking@microsoft.com.
+Please report any issues to jordanking@microsoft.com.
 
