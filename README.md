@@ -1,4 +1,5 @@
-# INSTRUCTIONS
+# Instructions
+Disclaimer - this is an experimental template. We will constantly update and iterate based on your valuable feedback. Currently, only English is supported. 
 
 This page will guide you through the steps to run an analysis that explains Copilot super usage. With this analysis, you will be able to examine how your organization is using Copilot, what changes are taking place, and how to drive adoption on the path to realizing ROI. 
 
@@ -21,6 +22,8 @@ This page will guide you through the steps to run an analysis that explains Copi
 2. Select Time period: Last 6 Months
 3. Select metrics: Add metrics and select from the below groupings
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/groupings.png" alt="groupings">
+
+Please be sure to confirm all metrics under M365 Copilot are selected. We are aware of a bug where sometimes a cluster of metrics at the bottom are excluded. We recommending manually including those. 
 
 ### **Step 2: Selecting analysis population and attributes to include**
 1. Set "Is Active = True"
