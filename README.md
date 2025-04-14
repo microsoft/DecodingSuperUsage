@@ -48,5 +48,5 @@ Please be sure to confirm all metrics under M365 Copilot are selected. We are aw
 3. Select Load.
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/filepath.png" alt="File Path">
 
-Please report any issues to jordanking@microsoft.com.
+We want to hear your feedback and suggestions. Please reach out to shahegde@microsoft.com or jordanking@microsoft.com.
 
