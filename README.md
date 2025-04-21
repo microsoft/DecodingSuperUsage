@@ -1,13 +1,13 @@
 # Instructions
-Disclaimer - this is an experimental template. We will constantly update and iterate based on your valuable feedback. Currently, only English is supported. 
+Disclaimer - this is an experimental template and on occasions you may see small deviations from metrics in the Copilot Dashboard. We will constantly update and iterate based on your valuable feedback. Currently, only English is supported. 
 
 **Why should we study super users?**
 Studying super users reveals how they've successfully navigated the adoption curve—from initial experimentation to habit formation —within the unique context and workflows of their organization. By understanding their specific journey and milestones, we can pinpoint critical moments that transform casual users into dedicated adopters, enabling us to replicate and scale this adoption across the company.
 
 **You will be able to unpack:**
 1. **Super usage profile:** What does super usage look like ? What do super users use Copilot for? Are you seeing signs of workflow changes?
-2. **Journey:** How did some users turn into super users? What did super users do in the early days of license activation?  How fast are you producing super users ? Is super usage durable?
-3. **Work patterns:** What What work patterns are associated with super users? Are you seeing any early impact? 
+2. **Journey:** How did some users turn into super users? What did super users do differently in the early days of license activation?  How fast are you producing super users ? Is super usage durable?
+3. **Work patterns:** What work patterns are associated with super users? Are you seeing any early impact? 
 4. **Change management:** Where are the super users concentrated? Where might you focus enablement efforts?
  
 **We will take you through 2 steps:** 
