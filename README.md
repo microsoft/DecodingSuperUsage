@@ -1,13 +1,14 @@
 # Instructions
 Disclaimer - this is an experimental template. We will constantly update and iterate based on your valuable feedback. Currently, only English is supported. 
 
-This page will guide you through the steps to run an analysis that explains Copilot super usage. With this analysis, you will be able to examine how your organization is using Copilot, what changes are taking place, and how to drive adoption on the path to realizing ROI. 
+**Why should we study super users?**
+Studying super users reveals how they've successfully navigated the adoption curve—from initial experimentation to habit formation —within the unique context and workflows of their organization. By understanding their specific journey and milestones, we can pinpoint critical moments that transform casual users into dedicated adopters, enabling us to replicate and scale this adoption across the company.
 
 **You will be able to unpack:**
-1. **Habits:** determine how many daily/weekly/monthly Copilot actions lead to structural usage (e.g. norm = 11-16 actions per week tipping point after which usage accelerates quickly)
-2. **Journey:** understand how some early adopters turn into super users, what they are using Copilot for, and if super usage is sustainable
-3. **Confidence:** discover if super users are concentrating their actions in one app or multiple app
-4. **Profiles:** learn what were the collaboration profiles of super users, what impact is it having on their work patterns
+1. **Super usage profile:** What does super usage look like ? What do super users use Copilot for? Are you seeing signs of workflow changes?
+2. **Journey:** How did some users turn into super users? What did super users do in the early days of license activation?  How fast are you producing super users ? Is super usage durable?
+3. **Work patterns:** What What work patterns are associated with super users? Are you seeing any early impact? 
+4. **Change management:** Where are the super users concentrated? Where might you concentrate enablement efforts?
  
 **We will take you through 2 steps:** 
 1. Exporting data from Viva Insights.
