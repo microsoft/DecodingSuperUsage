@@ -8,7 +8,7 @@ Studying super users reveals how they've successfully navigated the adoption cur
 1. **Super usage profile:** What does super usage look like ? What do super users use Copilot for? Are you seeing signs of workflow changes?
 2. **Journey:** How did some users turn into super users? What did super users do in the early days of license activation?  How fast are you producing super users ? Is super usage durable?
 3. **Work patterns:** What What work patterns are associated with super users? Are you seeing any early impact? 
-4. **Change management:** Where are the super users concentrated? Where might you concentrate enablement efforts?
+4. **Change management:** Where are the super users concentrated? Where might you focus enablement efforts?
  
 **We will take you through 2 steps:** 
 1. Exporting data from Viva Insights.
