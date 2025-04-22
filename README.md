@@ -22,9 +22,7 @@ Studying super users reveals how they've successfully navigated the adoption cur
 1. Navigate to [Viva Insights](https://analysis.insights.viva.office.com/) -> Home -> Create custom query -> Person Query
 2. Select Time period: Last 6 Months
 3. Select metrics: Add metrics and select from the below groupings
-<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/groupings.png" alt="groupings">
-
-Please be sure to confirm all metrics under M365 Copilot are selected. We are aware of a bug where sometimes a cluster of metrics at the bottom are excluded. We recommending manually including those. 
+<img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/groupings.png" alt="groupings"> 
 
 ### **Step 2: Selecting analysis population and attributes to include**
 1. Set "Is Active = True"
