@@ -1,4 +1,4 @@
-**Attention returning users: **
+**Attention returning users:**
 We have updated the template to include a few new analyses, requiring additional metrics. Please note that you need to select all metrics now in the Collaboration Activity grouping.
 
 # Instructions
