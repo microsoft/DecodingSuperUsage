@@ -1,3 +1,6 @@
+# Attention returning users
+We have updated the template to include a few new analyses, requiring additional metrics. Please note that you need to select all metrics now in the Collaboration Activity grouping.
+
 # Instructions
 Disclaimer - this is an experimental template and on occasions you may see small deviations from metrics in the Copilot Dashboard. We will constantly update and iterate based on your valuable feedback. Currently, only English is supported. 
 
