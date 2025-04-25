@@ -1,8 +1,8 @@
 **Attention returning users:**
-We have updated the template to include a few new analyses, requiring additional metrics. Please note that you need to select all metrics now in the Collaboration Activity grouping.
+We have updated the template to include a few new analyses, requiring additional metrics. Please note that you need to select all metrics now in the Collaboration Activity grouping in the Person Query.
 
 # Instructions
-Disclaimer - this is an experimental template and on occasions you may see small deviations from metrics in the Copilot Dashboard. We will constantly update and iterate based on your valuable feedback. Currently, only English is supported. 
+Disclaimer - this is an experimental template and on occasions you may see small deviations from metrics in the Copilot Dashboard. We will constantly update and iterate based on your valuable feedback. We have included an interpretation guide to assist you in analysing the data. Currently, only English is supported. 
 
 **Why should we study super users?**
 Studying super users reveals how they've successfully navigated the adoption curve—from initial experimentation to habit formation —within the unique context and workflows of their organization. By understanding their specific journey and milestones, we can pinpoint critical moments that transform casual users into dedicated adopters, enabling us to replicate and scale this adoption across the company.
@@ -52,3 +52,8 @@ Studying super users reveals how they've successfully navigated the adoption cur
 
 We want to hear your feedback and suggestions. Please reach out to shahegde@microsoft.com or jordanking@microsoft.com.
 
+# Attribution
+If you find this repository useful in your work, demos, or analysis, please consider giving attribution by:
+- Starring the repo
+- Linking back to it in your project or documentation
+  
