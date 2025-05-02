@@ -56,8 +56,3 @@ Studying super users reveals how they've successfully navigated the adoption cur
 
 We want to hear your feedback and suggestions. Please reach out to shahegde@microsoft.com or jordanking@microsoft.com.
 
-# Attribution
-If you find this repository useful in your work, demos, or analysis, please consider giving attribution by:
-- Starring the repo
-- Linking back to it in your project or documentation
-  
