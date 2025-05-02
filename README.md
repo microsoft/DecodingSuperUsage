@@ -52,7 +52,7 @@ Studying super users reveals how they've successfully navigated the adoption cur
 
 ### **Step 3: Analyze and tell the story**
 1. Use the [interpretation guide](https://github.com/microsoft/DecodingSuperUsage/blob/3985d0ae577d02be63dd71eec61740724b3eefb4/Superusage%20Report%20-%20Interpretation%20Guide.pdf) to analyze and further extend the analysis.
-2. Use the [https://github.com/microsoft/DecodingSuperUsage/blob/3985d0ae577d02be63dd71eec61740724b3eefb4/Superusage%20Analysis%20-%20Storyboard%20v2.pptx](https://github.com/microsoft/DecodingSuperUsage/blob/3985d0ae577d02be63dd71eec61740724b3eefb4/Superusage%20Analysis%20-%20Storyboard%20v2.pptx) to craft and tell your story!
+2. Use the [story board](https://github.com/microsoft/DecodingSuperUsage/blob/3985d0ae577d02be63dd71eec61740724b3eefb4/Superusage%20Analysis%20-%20Storyboard%20v2.pptx) to craft and tell your story!
 
 We want to hear your feedback and suggestions. Please reach out to shahegde@microsoft.com or jordanking@microsoft.com.
 
