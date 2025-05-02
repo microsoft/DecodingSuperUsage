@@ -50,6 +50,10 @@ Studying super users reveals how they've successfully navigated the adoption cur
 3. Select Load.
 <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/filepath.png" alt="File Path">
 
+### **Step 3: Analyze and interpret**
+1. Use the [interpretation guide](https://github.com/microsoft/DecodingSuperUsage/blob/3985d0ae577d02be63dd71eec61740724b3eefb4/Superusage%20Report%20-%20Interpretation%20Guide.pdf) to analyze and further extend the analysis.
+2. Use the https://github.com/microsoft/DecodingSuperUsage/blob/3985d0ae577d02be63dd71eec61740724b3eefb4/Superusage%20Analysis%20-%20Storyboard%20v2.pptx to craft and tell your story!
+
 We want to hear your feedback and suggestions. Please reach out to shahegde@microsoft.com or jordanking@microsoft.com.
 
 # Attribution
