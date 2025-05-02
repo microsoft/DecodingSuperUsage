@@ -13,9 +13,10 @@ Studying super users reveals how they've successfully navigated the adoption cur
 3. **Work patterns:** What work patterns are associated with super users? Are you seeing any early impact? 
 4. **Change management:** Where are the super users concentrated? Where might you focus enablement efforts?
  
-**We will take you through 2 steps:** 
+**We will take you through 3 steps:** 
 1. Exporting data from Viva Insights.
-2. Importing the data into a Power BI Template. 
+2. Importing the data into a Power BI Template.
+3. Analyzing and building a story.
 
 ### **To begin, please download the [DecodingSuperUsage GitHub Repo ZIP file](https://github.com/microsoft/DecodingSuperUsage/archive/refs/heads/DecodingSuperUsage.zip) and extract its contents to your local machine.**
 
