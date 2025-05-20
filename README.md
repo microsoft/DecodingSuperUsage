@@ -40,7 +40,7 @@ Studying super users reveals how they've successfully navigated the adoption cur
 
 ---
 
-### **To begin, please download the [DecodingSuperUsage GitHub Repo ZIP file](https://github.com/microsoft/DecodingSuperUsage/archive/refs/Part 1: Creating a custom query and exporting data from Viva Insights </h2>
+### **To begin, please download the [DecodingSuperUsage GitHub Repo ZIP file](https://github.com/microsoft/DecodingSuperUsage/archive/refs/heads/main.zip)
 
 ### **Step 1: Creating the query**
 1. Navigate to [Viva Insights](https://analysis.insights.viva.office**Person Query**
