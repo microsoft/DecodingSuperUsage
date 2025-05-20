@@ -43,7 +43,7 @@ Studying super users reveals how they've successfully navigated the adoption cur
 ### **To begin, please download the [DecodingSuperUsage GitHub Repo ZIP file](https://github.com/microsoft/DecodingSuperUsage/archive/refs/heads/main.zip)
 
 ### **Step 1: Creating the query**
-1. Navigate to [Viva Insights](https://analysis.insights.viva.office**Person Query**
+1. Navigate to [Viva Insights](https://analysis.insights.viva.office) **Person Query**
 2. Select **Time period: Last 6 Months**. Enable **Auto Refresh** to populate the template automatically, if needed.
 3. Select metrics: Click **Add metrics** and choose from the groupings below:  
    <img src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/groupings.png" alt="groupings">
