@@ -6,7 +6,7 @@ Now available: a **Viva Insights Connector–based template** with automated wee
 - 📊 **Usage tiers now use Static Thresholds** for clearer benchmarking
 - 🎨 **Improved visuals** make it easier to read, interpret, and act on key insights
 - 📈 **Built-in cross-team comparisons** added to each slide for quick benchmarking
-- 🧭 **Overview and Executive Summary slides moved up front** for easier sharing of topline results
+- 🧭 **Overview and Executive Summary slides added added and moved up front** for easier sharing of topline results
 
 
 ---
