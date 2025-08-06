@@ -110,7 +110,7 @@ This method allows you to connect directly to Viva Insights without downloading 
 ---
 
 ### ✅ **Step 3: Analyze and Tell the Story**
-1. Use the [interpretation guide](https://github.com/microsoft/DecodingSuperUsage/blob/3985d0ae577d02be63dd71eec61740724b3eefb4/Superusage%20Report%20-%20Interpretation%20Guide.pdf) to analyze and further extend the analysis.
+1. Use the [interpretation guide](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Super%20User%202.0%20-%20Interpretation%20Guide.pdf) to analyze and further extend the analysis.
 2. Use the [story board](https://github.com/microsoft/DecodingSuperUsage/blob/3985d0ae577d02be63dd71eec61740724b3eefb4/Superusage%20Analysis%20-%20Storyboard%20v2.pptx) to craft and tell your story!
 
 We want to hear your feedback and suggestions. Please reach out to shahegde@microsoft.com or jordanking@microsoft.com.
