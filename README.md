@@ -6,8 +6,8 @@ Accelerate understanding of how super usage of Microsoft Copilot develops and ho
 [Download Latest (ZIP)](https://github.com/microsoft/DecodingSuperUsage/archive/refs/heads/main.zip)  
 [Archived Templates](https://github.com/microsoft/DecodingSuperUsage/tree/DecodingSuperUsage/Archived%20Templates)  
 [Super Usage Interpretation Guide](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Super%20User%202.0%20-%20Interpretation%20Guide.pdf)  
-[Super Usage Storyboard PPT Template](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Superuser%20Analysis%202.0%20-%20Storyboard.pptx)  
-[Copilot Studio Agents Interpretation Guide](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/PDF%20Guides/Copilot%20Studio%20agents%20report%20-%20Interpretation%20Guide.pdf)
+[Super Usage Storyboard PPT Template](https://github.com/microsoft/DecodingSuperUsage/blob/224b5d8fa5742b9c405036c76691a783e0199b55/Superuser%20Analysis%20-%20Storyboard%20v3.pptx)  
+
 
 ---
 
