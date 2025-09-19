@@ -1,7 +1,7 @@
 # Super Usage Analysis Template (Copilot + Viva Insights)
 ![Current Version](https://img.shields.io/badge/version-30-blue)
 
-Accelerate understanding of how super usage of Microsoft Copilot develops and how to scale it across your organization.
+Insights into how super users of Microsoft Copilot emerge—and learn how to scale their success across your organization.
 
 [Download Latest (ZIP)](https://github.com/microsoft/DecodingSuperUsage/archive/refs/heads/main.zip)  
 [Archived Templates](https://github.com/microsoft/DecodingSuperUsage/tree/DecodingSuperUsage/Archived%20Templates)  
@@ -13,9 +13,8 @@ Accelerate understanding of how super usage of Microsoft Copilot develops and ho
 
 ## What’s New
 - Static thresholds for usage tiers (clearer benchmarking)
-- Updated visuals for faster interpretation
-- Cross-team comparisons embedded
-- Overview + Executive Summary moved to the front
+- One click zoom into superusers
+- Cross-team comparisons 
 - NEW: Direct Query template using Viva Insights connector (enables near-automatic weekly updates)
 
 ---
