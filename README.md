@@ -1,5 +1,5 @@
 # Super Usage Analysis Template (Copilot + Viva Insights)
-![Current Version](https://img.shields.io/badge/version-30-blue)
+![Current Version](https://img.shields.io/badge/version-31-blue)
 
 Insights into how super users of Microsoft Copilot emerge—and learn how to scale their success across your organization.
 
