@@ -59,18 +59,14 @@ Where are the super users concentrated? Where might you focus enablement efforts
 ### At a Glance
 | When to choose | Effort | Refresh cadence | Pros | Cons |
 |----------------|--------|-----------------|------|------|
-| You just need a snapshot or will manually refresh monthly/quarterly | ~10–20 min initial | Manual (re-export) | Simple, works behind stricter firewalls | Manual work, risk of stale data |
+| You just need a snapshot or will manually refresh monthly/quarterly | ~10 min initial | Manual (re-export) | Simple, portable - anyone can bring their own CSV and use the PBIT | Manual work, risk of stale data |
 
 ---
 
 ### 0. Pre‑Flight Checklist (DO NOT SKIP)
 You have:
-- Viva Insights Analyst (or equivalent) access.
-- Copilot usage signals enabled in the tenant.
+- Viva Insights Analyst access.
 - Power BI Desktop (latest version).
-- A place to save the exported CSV (local or network drive).
-If any are missing, resolve first.
-
 ---
 
 ### 1. Build / Open the Person Query
@@ -172,17 +168,12 @@ To update in the future:
 ### At a Glance
 | When to choose | Effort | Refresh cadence | Pros | Cons |
 |----------------|--------|-----------------|------|------|
-| You want always-current weekly data with minimal manual work | ~10–25 min initial | Automatic (weekly source processing) | No CSV handling; rolling window auto-updates | Requires stable permissions & correct IDs |
+| You want always-current weekly data with minimal manual work | ~10 min initial | Automatic (weekly source processing) | Rolling window auto-refresh | Requires analyst access to setup in PBI Desktop |
 
----
-
-### 0. Pre‑Flight Checklist
+### 0. Pre‑Flight Checklist (DO NOT SKIP)
 You have:
-- Viva Insights Analyst access (and Copilot signals enabled).  
-- Power BI Desktop (latest).  
-- Authentication method: Organizational account (OAuth2).  
-- Confirm you can open the Person Query portal (not blocked by network).
-
+- Viva Insights Analyst access.
+- Power BI Desktop (latest version).
 ---
 
 ### 1. Open the Person Queries Page
