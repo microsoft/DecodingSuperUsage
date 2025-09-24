@@ -97,12 +97,15 @@ Where are the super users concentrated? Where might you focus enablement efforts
 
 ## Step 3. Validation & Troubleshooting
 
-**Checklist for success:**
-- No errors on load
-- Fields pane includes expected tables
-- Executive Summary visuals populate (not all blank)
+<details>
+<summary><strong>Expand to View Validation Checklist & Fixes</strong></summary>
 
-**Common Mistakes & Fixes**
+**Checklist for success:**
+- No errors on load  
+- Fields pane includes expected tables  
+- Executive Summary visuals populate (not all blank)  
+
+**Common Mistakes & Fixes**  
 | Symptom | Cause | Fix |
 |---------|-------|-----|
 | Blank visuals | Missing required metric(s) | Re-export/re-run query with full set |
@@ -112,6 +115,8 @@ Where are the super users concentrated? Where might you focus enablement efforts
 | Distorted adoption rates | Didn’t filter active users | Add Is Active = True |
 | Load error | CSV open in Excel (Option 1) | Close file and retry |
 | Direct Query blank | Wrong GUIDs or status not complete | Re-check IDs and query status |
+
+</details>
 
 ---
 
@@ -121,148 +126,6 @@ Where are the super users concentrated? Where might you focus enablement efforts
 2. Publish/distribute: Save PBIX, publish to workspace (if Direct Query, confirm credentials).
 3. Share supporting guides (see Interpretation & Storytelling section).
 4. Monitor weekly: After each Viva Insights processing cycle, confirm a new week appears and track emerging super users.
-
----
-
-## Interpretation & Storytelling
-
-Leverage the guides below to frame your narrative and drive action:
-
-- Super Usage Interpretation Guide (PDF): [Super Usage Interpretation Guide](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Super%20User%202.0%20-%20Interpretation%20Guide.pdf)  
-- Storyboard presentation template: [Super Usage Storyboard PPT Template](https://github.com/microsoft/DecodingSuperUsage/blob/224b5d8fa5742b9c405036c76691a783e0199b55/Superuser%20Analysis%20-%20Storyboard%20v3.pptx)  
-
-Use the included guides to:
-- Create an executive-ready presentation
-- Define what constitutes super usage internally
-- Highlight early activation behaviors
-- Recommend enablement actions per org or cohort
-
----
-
-## Feedback
-We want to hear your feedback and suggestions. Please reach out to shahegde@microsoft.com or jordanking@microsoft.com.
-# Super Usage Analysis Template (Copilot + Viva Insights)
-![Current Version](https://img.shields.io/badge/version-31-blue)
-
-Insights into how super users of Microsoft Copilot emerge—and learn how to scale their success across your organization.
-
-[Download Latest (ZIP)](https://github.com/microsoft/DecodingSuperUsage/archive/refs/heads/main.zip)  
-[Archived Templates](https://github.com/microsoft/DecodingSuperUsage/tree/DecodingSuperUsage/Archived%20Templates)  
-[Super Usage Interpretation Guide](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Super%20User%202.0%20-%20Interpretation%20Guide.pdf)  
-[Super Usage Storyboard PPT Template](https://github.com/microsoft/DecodingSuperUsage/blob/224b5d8fa5742b9c405036c76691a783e0199b55/Superuser%20Analysis%20-%20Storyboard%20v3.pptx)  
-
----
-
-## What’s New
-- Static thresholds for usage tiers (clearer benchmarking)
-- One click zoom into superusers
-- Cross-team comparisons 
-- Direct Query template using Viva Insights connector (enables near-automatic weekly updates)
-- NEW v30+: Scatterplots for additional cross-team analysis and deeper insights
-
----
-
-## Why Study Super Usage
-Super usage patterns show how experimentation turns into durable habits. Identifying early signals and contextual attributes helps you:
-- Replicate adoption paths
-- Prioritize enablement
-- Benchmark across teams
-- Inspire the organization
-
----
-
-## Insights you can Explore
-
-**Super usage profile:**  
-What does super usage look like? What do super users use Copilot for? Are you seeing signs of workflow changes?
-
-**Journey:**  
-How did some users turn into super users? What did super users do differently in the early days of license activation? How fast are you producing super users? Is super usage durable?
-
-**Work patterns:**  
-What work patterns are associated with super users? Are you seeing any early impact?
-
-**Change management:**  
-Where are the super users concentrated? Where might you focus enablement efforts?
-
----
-
-<h1 style="margin-top:1.5em; font-size:2.1em;">Instructions</h1>
-
-> ⚠️ **Disclaimer**  
-> This is an experimental template. On occasion, you may notice small deviations from metrics in the Copilot Dashboard. We will continue to iterate based on your feedback. Interpretation guide included. English only currently.
-
----
-
-## Step 1. Build the Person Query (Required for All Setups)
-
-1. Open: https://analysis.insights.viva.office.com/Analysis/CreateAnalysis  
-   ![Landing page showing Create Analysis](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/VivaLanding.png)
-2. Select **Person Query** → *Set up analysis*.  
-   ![Person query card highlighted](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/PersonQuery.png)
-3. Configure:
-   - **Time period**: Last 6 months (rolling)
-   - **Group by**: Week
-   - **Filter**: Is Active = True (if available)
-   - **Attributes**: Include Organization and Function Type (others optional)
-4. Select **ALL required metrics** (missing one will cause blank visuals).  
-   ![Required metrics screenshot](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/groupings.png)
-5. Save & Run query. Wait until **Status = Completed** (first runs can take several hours). Do not export mid-processing.
-
----
-
-## Step 2. Choose Your Power BI Setup Path
-
-<details>
-<summary><strong>Import a CSV File</strong></summary>
-
-- Export results as CSV → Save clearly (e.g., `SuperUsagePersonQuery_YYYY-MM-DD.csv`).
-- Open `Template Super Usage Analysis (CSV).pbit` → point to CSV file path.
-- Validate visuals load correctly (Users, CopilotUsage, Attributes tables visible).
-- Save working PBIX as snapshot (manual refresh required for updates).
-
-</details>
-
-<details>
-<summary><strong>Setup Direct Query to Viva Insights</strong></summary>
-
-- From Person Queries page, copy link (row/link icon).  
-  ![Query row showing link icon](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/AnalysisResultsLink.png)
-- Extract **partitionId** and **queryId** from URL. Confirm 36 characters each.  
-  ![Partition and Query IDs highlighted](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/CopyIdentifiers.png)
-- Open `Template Super Usage Analysis (Direct Query).pbit` → paste IDs when prompted.
-- Sign in with your work account. Initial load may take 1–3 minutes.
-- Save PBIX and publish to Power BI workspace. No scheduled refresh required (Direct Query auto-refreshes weekly).
-
-</details>
-
----
-
-## Step 3. Validation & Troubleshooting
-
-**Checklist for success:**
-- No errors on load
-- Fields pane includes expected tables
-- Executive Summary visuals populate (not all blank)
-
-**Common Mistakes & Fixes**
-| Symptom | Cause | Fix |
-|---------|-------|-----|
-| Blank visuals | Missing required metric(s) | Re-export/re-run query with full set |
-| Missing slicers/labels | Skipped Org/Function Type | Add both attributes and reprocess |
-| Trend calcs broken | Grouped by Month | Use Week grouping |
-| Partial weeks | Exported mid-processing | Wait until Status = Completed |
-| Distorted adoption rates | Didn’t filter active users | Add Is Active = True |
-| Load error | CSV open in Excel (Option 1) | Close file and retry |
-| Direct Query blank | Wrong GUIDs or status not complete | Re-check IDs and query status |
-
----
-
-## Next Steps
-
-1. Publish/distribute: Save PBIX, publish to workspace (if Direct Query, confirm credentials).
-2. Share supporting guides (see Interpretation & Storytelling section).
-3. Monitor weekly: After each Viva Insights processing cycle, confirm a new week appears and track emerging super users.
 
 ---
 
