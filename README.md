@@ -54,7 +54,7 @@ Where are the super users concentrated? Where might you focus enablement efforts
 ## Step 1. Build the Person Query (Required for All Setups)
 
 1. Open: https://analysis.insights.viva.office.com/Analysis/CreateAnalysis  
-   ![Landing page showing Create Analysis](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/VivaLanding.png)
+   ![Landing page showing Create Analysis](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/VivaLanding1.png)
 2. Select **Person Query** → *Set up analysis*.  
    ![Person query card highlighted](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/PersonQuery.png)
 3. Configure:
