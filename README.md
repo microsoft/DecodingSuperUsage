@@ -47,7 +47,7 @@ Where are the super users concentrated? Where might you focus enablement efforts
 <h1 style="margin-top:1.5em; font-size:2.1em;">Instructions</h1>
 
 > ⚠️ **Disclaimer**  
-> This is an experimental template. On occasion, you may notice small deviations from metrics in the Copilot Dashboard. We will continue to iterate based on your feedback. Interpretation guide included. English only currently.
+> This is an experimental template. On occasion, you may notice small deviations from metrics in the Copilot Dashboard. We will continue to iterate based on your feedback. Currently available in English only.
 
 ---
 
@@ -75,8 +75,7 @@ Where are the super users concentrated? Where might you focus enablement efforts
 
 - Export results as CSV → Save clearly (e.g., `SuperUsagePersonQuery_YYYY-MM-DD.csv`).
 - Open `Template Super Usage Analysis (CSV).pbit` → point to CSV file path.
-- Validate visuals load correctly (Users, CopilotUsage, Attributes tables visible).
-- Save working PBIX as snapshot (manual refresh required for updates).
+- Save working PBIX and publish to Power BI service for sharing (manual refresh required for updates).
 
 </details>
 
