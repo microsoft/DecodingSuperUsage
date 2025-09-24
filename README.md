@@ -60,8 +60,9 @@ Where are the super users concentrated? Where might you focus enablement efforts
 3. Configure:
    - **Time period**: Last 6 months (rolling)
    - **Group by**: Week
-   - **Filter**: Is Active = True (if available)
-   - **Attributes**: Include Organization and Function Type (others optional)
+   - **Metrics**: See sub-step 4 for required attribute selection.
+   - **Filter**: Is Active = True (if available) - You can validate the number of employees here. 
+   - **Attributes**: Include Organization and Function Type (others optional) - this is the last box on this page. 
 4. Select **ALL required metrics** (missing one will cause blank visuals).  
    ![Required metrics screenshot](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/groupings.png)
 5. Save & Run query. Wait until **Status = Completed** (first runs can take several hours). Do not export mid-processing.
