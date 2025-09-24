@@ -95,10 +95,10 @@ Where are the super users concentrated? Where might you focus enablement efforts
 
 ---
 
-## Step 3. Validation & Troubleshooting
+## Next Steps
 
 <details>
-<summary><strong>Expand to View Validation Checklist & Fixes</strong></summary>
+<summary><strong>Validation & Troubleshooting</strong></summary>
 
 **Checklist for success:**
 - No errors on load  
@@ -118,18 +118,17 @@ Where are the super users concentrated? Where might you focus enablement efforts
 
 </details>
 
----
+<details>
+<summary><strong>Publish / Distribute</strong></summary>
 
-## Next Steps
+- Save your PBIX file after setup.  
+- If using Direct Query, publish to a Power BI workspace and configure credentials (OAuth2).  
+- If using CSV Import, publish the PBIX file but note that refreshes are manual.  
 
-1. Complete **Step 1** and choose either Import a CSV File or Setup Direct Query.
-2. Publish/distribute: Save PBIX, publish to workspace (if Direct Query, confirm credentials).
-3. Share supporting guides (see Interpretation & Storytelling section).
-4. Monitor weekly: After each Viva Insights processing cycle, confirm a new week appears and track emerging super users.
+</details>
 
----
-
-## Interpretation & Storytelling
+<details>
+<summary><strong>Interpretation & Storytelling</strong></summary>
 
 Leverage the guides below to frame your narrative and drive action:
 
@@ -137,10 +136,22 @@ Leverage the guides below to frame your narrative and drive action:
 - Storyboard presentation template: [Super Usage Storyboard PPT Template](https://github.com/microsoft/DecodingSuperUsage/blob/224b5d8fa5742b9c405036c76691a783e0199b55/Superuser%20Analysis%20-%20Storyboard%20v3.pptx)  
 
 Use the included guides to:
-- Create an executive-ready presentation
-- Define what constitutes super usage internally
-- Highlight early activation behaviors
-- Recommend enablement actions per org or cohort
+- Create an executive-ready presentation  
+- Define what constitutes super usage internally  
+- Highlight early activation behaviors  
+- Recommend enablement actions per org or cohort  
+
+</details>
+
+<details>
+<summary><strong>Monitor with Automatic Refresh</strong></summary>
+
+- For Direct Query: Reports update automatically with each weekly Viva Insights refresh.  
+- For CSV Import: Re-run your query, export a new CSV, and repoint the PBIX to the updated file.  
+- Verify weekly that a new week of data appears.  
+- Track emerging super users and adoption trends regularly.  
+
+</details>
 
 ---
 
