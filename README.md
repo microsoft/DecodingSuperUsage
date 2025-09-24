@@ -150,9 +150,9 @@ Use the included guides to:
 - Navigate to [Power BI Web](https://msit.powerbi.com/home?experience=power-bi) (you may need to login)
 - Find the Report and Semantic Model you just published.
 - Hover over the Semantic Model and click on the icon as seen below:
-- ![Refresh1](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/Refresh1.png)
+![Refresh1](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/Refresh1.png)
 - On this page, from the list of options available, click on Refresh and then configure your report as seen below in the screenshot, or as you best fits your needs.
-- ![refresh](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/refresh.png)
+![refresh](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/refresh.png)
 
   
 - For Direct Query: Reports update automatically with each weekly Viva Insights refresh, but you will still need to update the published report refresh settings as seen above. 
