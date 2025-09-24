@@ -147,7 +147,7 @@ Use the included guides to:
 <summary><strong>Monitor with Automatic Refresh</strong></summary>
 
 - Configure Published Report Refresh settings
-- Navigate to ![Power BI Web](https://msit.powerbi.com/home?experience=power-bi) (you may need to login)
+- Navigate to [Power BI Web](https://msit.powerbi.com/home?experience=power-bi) (you may need to login)
 - Find the Report and Semantic Model you just published.
 - Hover over the Semantic Model and click on the icon as seen below:
 - ![Refresh1](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/Refresh1.png)
