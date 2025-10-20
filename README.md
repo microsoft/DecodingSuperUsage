@@ -9,23 +9,12 @@ Insights into how super users of Microsoft Copilot emerge—and learn how to sca
 [Super Usage Storyboard PPT Template](https://github.com/microsoft/DecodingSuperUsage/blob/224b5d8fa5742b9c405036c76691a783e0199b55/Superuser%20Analysis%20-%20Storyboard%20v3.pptx)  
 
 <details open>
-  <summary>▶️ <b>Preview GIF</b></summary>
+  <summary>▶️ <b>Preview GIF </b></summary>
 
   <br>
 
   <img src="https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/SuperUser.gif" alt="GitHub Copilot Engagement Preview" width="100%" />
 
-</details>
-
-<details>
-  <summary>▶️ <b>Video Showcase</b></summary>
-  
-  <br>
-  
-  <video src="https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/images/Unlocking%20Insights%20with%20the%20Super%20Usage%20Report%20for%20Copilot.mp4?raw=true" controls width="100%">
-    Your browser does not support the video tag.
-  </video>
-  
 </details>
 
 ---
