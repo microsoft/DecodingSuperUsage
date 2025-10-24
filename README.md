@@ -5,7 +5,7 @@ Insights into how super users of Microsoft Copilot emerge—and learn how to sca
 
 [Download Latest (ZIP)](https://github.com/microsoft/DecodingSuperUsage/archive/refs/heads/main.zip)  
 [Archived Templates](https://github.com/microsoft/DecodingSuperUsage/tree/DecodingSuperUsage/Archived%20Templates)  
-[Super Usage Interpretation Guide](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Super%20User%202.0%20-%20Interpretation%20Guide.pdf)  
+[Super Usage Interpretation Guide](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Super%20User%202.0%20-%20Interpretation%20Guide_v2.pdf)  
 [Super Usage Storyboard PPT Template](https://github.com/microsoft/DecodingSuperUsage/blob/224b5d8fa5742b9c405036c76691a783e0199b55/Superuser%20Analysis%20-%20Storyboard%20v3.pptx)  
 
 <details>
@@ -57,7 +57,7 @@ How did some users turn into super users? What did super users do differently in
 What work patterns are associated with super users? Are you seeing any early impact?
 
 **Change management:**  
-Where are the super users concentrated? Where might you focus enablement efforts?
+Where are the super users concentrated? Where migh t you focus enablement efforts?
 
 ---
 
@@ -152,7 +152,7 @@ Where are the super users concentrated? Where might you focus enablement efforts
 
 Leverage the guides below to frame your narrative and drive action:
 
-- Super Usage Interpretation Guide (PDF): [Super Usage Interpretation Guide](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Super%20User%202.0%20-%20Interpretation%20Guide.pdf)  
+- Super Usage Interpretation Guide (PDF): [Super Usage Interpretation Guide](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Super%20User%202.0%20-%20Interpretation%20Guide_v2.pdf)
 - Storyboard presentation template: [Super Usage Storyboard PPT Template](https://github.com/microsoft/DecodingSuperUsage/blob/224b5d8fa5742b9c405036c76691a783e0199b55/Superuser%20Analysis%20-%20Storyboard%20v3.pptx)  
 
 Use the included guides to:
