@@ -70,7 +70,7 @@ Where are the super users concentrated? Where migh t you focus enablement effort
 
 ## Step 1. Build the Person Query (Required for All Setups)
 
-1. Open: https://analysis.insights.viva.office.com/Analysis/CreateAnalysis
+1. Open: [https://analysis.insights.cloud.microsoft/](https://analysis.insights.cloud.microsoft/) and go to Create Analysis.
    
    ![Landing page showing Create Analysis](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/VivaLanding1.png)
 3. Select **Person Query** → *Set up analysis*.
