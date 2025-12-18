@@ -187,3 +187,54 @@ Use the included guides to:
 
 ## Feedback
 We want to hear your feedback and suggestions. Please reach out to shahegde@microsoft.com or jordanking@microsoft.com.
+
+---
+
+<table align="center" width="100%" style="margin-top:2.2em; margin-bottom:1.7em;">
+  <tr>
+    <!-- Copilot Impact Banner (Left)-->
+    <td style="vertical-align:top; text-align:center; width:50%;">
+      <div style="
+        display:block;
+        margin:0 auto;
+        width:340px;
+        max-width:95vw;
+        background: linear-gradient(94deg, #f9f6ff 0%, #e6f0fd 100%);
+        border: 2px solid #b38cff;
+        border-radius: 15px;
+        box-shadow: 0 2px 16px #9a7fff20;
+        padding: 1.1em 1.1em 1.05em 1.1em;
+        ">
+        <span style="color:#2a237a; font-size:1.13em; font-weight:600;">
+          ✨ This report <b>wouldn't have been possible without the magic of GitHub Copilot.</b><br/>
+          <span style="font-weight:500;">
+            As a tribute, we have built this GitHub Copilot analytics report.<br/>
+            <a href="https://github.com/microsoft/GitHubCopilotImpact" style="color:#29009f; font-weight:600; text-decoration:underline;" target="_blank">@microsoft/GitHubCopilotImpact</a> &mdash; try it out and give us feedback!
+          </span>
+        </span>
+      </div>
+    </td>
+    <!-- AI-in-One Banner (Right)-->
+    <td style="vertical-align:top; text-align:center; width:50%;">
+      <div style="
+        display:block;
+        margin:0 auto;
+        width:340px;
+        max-width:95vw;
+        background: linear-gradient(93deg, #eefcf5 0%, #e1edff 100%);
+        border: 2px solid #17bcb8;
+        border-radius: 15px;
+        box-shadow: 0 2px 16px #24d6cd14;
+        padding: 1.1em 1.1em 1.05em 1.1em;
+        ">
+        <span style="color:#086b65; font-size:1.13em; font-weight:600;">
+          🤔 Curious how <b>free chat, M365 Copilot, and agent usage all connect?</b><br>
+          <span style="font-weight:500;">
+            Check out the companion report at<br>
+            <a href="https://github.com/microsoft/AI-in-One-Dashboard" style="color:#005782; font-weight:600; text-decoration:underline;" target="_blank">@microsoft/AI-in-One-Dashboard</a>
+          </span>
+        </span>
+      </div>
+    </td>
+  </tr>
+</table>
