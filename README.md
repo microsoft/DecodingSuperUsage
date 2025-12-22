@@ -27,7 +27,7 @@ Insights into how super users of Microsoft Copilot emerge—and learn how to sca
 
 ---
 
-## What’s New
+## What's New
 - NEW 'Super User Impact' dashboard that explores the impact of Copilot on work patterns (& sentiment if available) and estimated value
 - Static thresholds for usage tiers (clearer benchmarking)
 - One click zoom into superusers
@@ -57,6 +57,23 @@ What work patterns are associated with super users? Are you seeing any early imp
 
 **Change management:**  
 Where are the super users concentrated? Where migh t you focus enablement efforts?
+
+---
+
+## Templates
+
+This repository includes four Power BI templates in two categories:
+
+**Super User Adoption Templates**
+- **Template - Super User Adoption (CSV Input).pbit**: Analyzes Copilot adoption patterns and super user emergence using CSV exports. Best for one-time analysis or sharing with external stakeholders.
+- **Template - Super User Adoption - (Viva Insights).pbit**: Same analytics with direct Viva Insights connection. Enables automatic refresh for ongoing monitoring.
+
+**Super User Impact Templates**  
+- **Template - Super User Impact - (CSV Input).pbit**: Measures Copilot's impact on work patterns and productivity using CSV data. Includes estimated value and sentiment analysis.
+- **Template - Super User Impact - (Viva Insights Input).pbit**: Same analytics with direct Viva Insights connection for continuous impact tracking.
+
+**Choosing Your Setup:**  
+Use **CSV templates** for ad-hoc analysis, simpler setup, or easier sharing. Use **Viva Insights templates** for automatic refresh, real-time data, and ongoing executive dashboards.
 
 ---
 
@@ -131,7 +148,7 @@ Where are the super users concentrated? Where migh t you focus enablement effort
 | Missing slicers/labels | Skipped Org/Function Type | Add both attributes and reprocess |
 | Trend calcs broken | Grouped by Month | Use Week grouping |
 | Partial weeks | Exported mid-processing | Wait until Status = Completed |
-| Distorted adoption rates | Didn’t filter active users | Add Is Active = True |
+| Distorted adoption rates | Didn't filter active users | Add Is Active = True |
 | Load error | CSV open in Excel (Option 1) | Close file and retry |
 | Direct Query blank | Wrong GUIDs or status not complete | Re-check IDs and query status |
 
