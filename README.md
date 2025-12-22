@@ -94,7 +94,9 @@ Use **CSV templates** for ad-hoc analysis, simpler setup, or easier sharing. Use
 
 **For R Users:** Explore the [Viva Insights R Library](https://microsoft.github.io/vivainsights/) for statistical analysis, custom visualizations, and seamless integration with R-based data science workflows.
 
-These libraries enable you to build custom super usage analyses, automate reporting pipelines, and extend the insights beyond what's available in the Power BI templates.
+**Sample Code & Examples:** Browse the [Viva Insights Sample Code Repository](https://github.com/microsoft/viva-insights-sample-code) for ready-to-use code examples, API integration patterns, and reference implementations across multiple programming languages.
+
+These tools enable you to build custom super usage analyses, automate reporting pipelines, and extend the insights beyond what's available in the Power BI templates.
 
 ---
 
