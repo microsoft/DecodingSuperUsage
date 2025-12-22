@@ -28,11 +28,10 @@ Insights into how super users of Microsoft Copilot emerge—and learn how to sca
 ---
 
 ## What’s New
+- NEW 'Super User Impact' dashboard that explores the impact of Copilot on work patterns (& sentiment if available) and estimated value
 - Static thresholds for usage tiers (clearer benchmarking)
 - One click zoom into superusers
 - Cross-team comparisons 
-- Direct Query template using Viva Insights connector (enables near-automatic weekly updates)
-- NEW v30+: Scatterplots for additional cross-team analysis and deeper insights
 
 ---
 
