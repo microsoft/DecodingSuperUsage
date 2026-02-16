@@ -10,7 +10,7 @@
 
 **Related Templates & Tools:**
 
-[![Super User Impact](https://img.shields.io/badge/Template-Super%20User%20Impact-003087)](https://aka.ms/superuserimpact)
+[![Super User Impact](https://img.shields.io/badge/Report-Super%20User%20Impact-003087)](https://aka.ms/superuserimpact)
 [![AI-in-One Dashboard](https://img.shields.io/badge/Report-AI--in--One%20Dashboard-teal)](https://github.com/microsoft/AI-in-One-Dashboard)
 [![GitHub Copilot Impact](https://img.shields.io/badge/Report-GitHub%20Copilot%20Impact-purple)](https://github.com/microsoft/GitHubCopilotImpact)
 [![Chat Intelligence](https://img.shields.io/badge/Report-Chat%20Intelligence-orange)](https://github.com/microsoft/CopilotChatAnalytics)
@@ -19,14 +19,6 @@
 [Expand All](#) • [Collapse All](#)
 
 </div>
-
-<details>
-  <summary><span style="font-size:1.15em;">🎬 <b>See the Report in Action (Video)</b></span></summary>
-  <br>
-  <a href="https://www.youtube.com/watch?v=40hsLAIiiD8" target="_blank">
-    <img src="https://img.youtube.com/vi/40hsLAIiiD8/0.jpg" alt="Copilot Super Usage Report Video Thumbnail" width="100%" />
-  </a>
-</details>
 
 <details open>
   <summary>▶️ <b>Super User Adoption Dashboard Preview</b></summary>
