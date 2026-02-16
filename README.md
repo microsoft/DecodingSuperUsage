@@ -280,25 +280,4 @@ We want to hear your feedback and suggestions. Please reach out to keithmcgrane@
   </tr>
 </table>
 
-<script>
-// Expand/Collapse All functionality
-document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a[href="#"]');
-    const expandLink = links[0];
-    const collapseLink = links[1];
 
-    if (expandLink) {
-        expandLink.addEventListener('click', function(e) {
-            e.preventDefault();
-            document.querySelectorAll('details').forEach(d => d.open = true);
-        });
-    }
-
-    if (collapseLink) {
-        collapseLink.addEventListener('click', function(e) {
-            e.preventDefault();
-            document.querySelectorAll('details').forEach(d => d.open = false);
-        });
-    }
-});
-</script>
