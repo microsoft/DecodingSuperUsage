@@ -19,6 +19,9 @@
 **Additional Resources:**
 [Viva Insights Python Library](https://microsoft.github.io/vivainsights-py/), [Viva Insights R Library](https://microsoft.github.io/vivainsights/)
 
+⭐ **Star this repository** to receive notifications about new template versions
+👀 **Watch** for updates and announcements
+
 </div>
 
 <details open>
@@ -88,7 +91,7 @@ Where are the super users concentrated? Where might you focus enablement efforts
 
 ### Step 1. Build the Person Query (Required for All Setups)
 
-Follow this 5-step process to create your Person Query in Viva Insights:
+Open the [Viva Insights Analyst Workbench](https://analysis.insights.cloud.microsoft/) and follow this 5-step process to create your Person Query:
 
 <details>
 <summary><strong>Detailed step-by-step guide with screenshots</strong></summary>
