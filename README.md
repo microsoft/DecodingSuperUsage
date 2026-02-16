@@ -7,8 +7,10 @@ Insights into how super users of Microsoft Copilot emerge—and learn how to sca
 [Archived Templates](https://github.com/microsoft/DecodingSuperUsage/tree/DecodingSuperUsage/Archived%20Templates)  
 [Super Usage Interpretation Guide](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Super%20User%202.0%20-%20Interpretation%20Guide.pdf)  
 [Super Usage Storyboard PPT Template](https://github.com/microsoft/DecodingSuperUsage/blob/f6634a07ff4c9d754620e981082206032d47d9ca/Superuser%20Impact%20-%20Storyboard%20v4.pptx)  
-[Viva Insights Python Library](https://microsoft.github.io/vivainsights-py/)  
+[Viva Insights Python Library](https://microsoft.github.io/vivainsights-py/)
 [Viva Insights R Library](https://microsoft.github.io/vivainsights/)
+
+[Expand All](#) • [Collapse All](#)
 
 <details>
   <summary><span style="font-size:1.15em;">🎬 <b>See the Report in Action (Video)</b></span></summary>
@@ -277,3 +279,26 @@ We want to hear your feedback and suggestions. Please reach out to keithmcgrane@
     </td>
   </tr>
 </table>
+
+<script>
+// Expand/Collapse All functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a[href="#"]');
+    const expandLink = links[0];
+    const collapseLink = links[1];
+
+    if (expandLink) {
+        expandLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelectorAll('details').forEach(d => d.open = true);
+        });
+    }
+
+    if (collapseLink) {
+        collapseLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelectorAll('details').forEach(d => d.open = false);
+        });
+    }
+});
+</script>
