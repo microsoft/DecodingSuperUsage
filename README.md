@@ -29,14 +29,6 @@ Insights into how super users of Microsoft Copilot emerge—and learn how to sca
 
 </details>
 
-<details open>
-  <summary>▶️ <b>Super User Impact Dashboard Preview</b></summary>
-
-  <br>
-
-  <img src="https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/Super%20User%20Impact%20Gif.gif" alt="Super User Impact Dashboard Preview" width="100%" />
-
-</details>
 
 ---
 
@@ -81,9 +73,6 @@ This repository includes four Power BI templates in two categories:
 - **Template - Super User Adoption (CSV Input).pbit**: Analyzes Copilot adoption patterns and super user emergence using CSV exports. Best for one-time analysis or sharing with external stakeholders.
 - **Template - Super User Adoption - (Viva Insights).pbit**: Same analytics with direct Viva Insights connection. Enables automatic refresh for ongoing monitoring.
 
-**Super User Impact Templates**  
-- **Template - Super User Impact - (CSV Input).pbit**: Measures Copilot's impact on work patterns and productivity using CSV data. Includes estimated value and sentiment analysis.
-- **Template - Super User Impact - (Viva Insights Input).pbit**: Same analytics with direct Viva Insights connection for continuous impact tracking.
 
 **Choosing Your Setup:**  
 Use **CSV templates** for ad-hoc analysis, simpler setup, or easier sharing. Use **Viva Insights templates** for automatic refresh, real-time data, and ongoing executive dashboards.
@@ -223,6 +212,17 @@ Use the included guides to:
 - Track emerging super users and adoption trends regularly.  
 
 </details>
+--
+
+## 🤓 Nerd Corner (for Claude Code users)
+
+If you’re into automation and allergic to manual decks — try this:
+
+👉 https://github.com/shailendrahegde/pbi-to-exec-deck
+
+It turns raw outputs into **exec-ready PPTs** with insights pre-baked.  
+All you do: verify, tweak, ship.
+
 
 ---
 
