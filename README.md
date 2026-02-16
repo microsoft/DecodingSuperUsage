@@ -16,7 +16,8 @@
 [![Chat Intelligence](https://img.shields.io/badge/Report-Chat%20Intelligence-orange)](https://github.com/microsoft/CopilotChatAnalytics)
 [![PBI to Exec Deck](https://img.shields.io/badge/Tool-PBI%20to%20Exec%20Deck-red)](https://github.com/shailendrahegde/pbi-to-exec-deck)
 
-[Expand All](#) • [Collapse All](#)
+**Additional Resources:**
+[Viva Insights Python Library](https://microsoft.github.io/vivainsights-py/), [Viva Insights R Library](https://microsoft.github.io/vivainsights/)
 
 </div>
 
@@ -47,7 +48,7 @@
 ---
 
 <details open>
-<summary><strong>📊 Why Study Super Usage</strong></summary>
+<summary><strong>📊 Why Study Super Usage & Insights You Can Explore</strong></summary>
 
 <br>
 
@@ -56,15 +57,6 @@ Super usage patterns show how experimentation turns into durable habits. Identif
 - Prioritize enablement
 - Benchmark across teams
 - Inspire the organization
-
-</details>
-
----
-
-<details open>
-<summary><strong>🔍 Insights You Can Explore</strong></summary>
-
-<br>
 
 **Super usage profile:**
 What does super usage look like? What do super users use Copilot for? Are you seeing signs of workflow changes?
@@ -87,7 +79,7 @@ Where are the super users concentrated? Where might you focus enablement efforts
 
 <br>
 
-![Viva Insights Query Setup Guide](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/viva_insights_query_setup.gif)
+![Viva Insights Query Setup Guide](https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/viva_insights_setup.gif)
 
 <details>
 <summary><strong>Written Setup Guide</strong></summary>
@@ -176,8 +168,8 @@ Follow this 5-step process to create your Person Query in Viva Insights:
 
 Leverage the guides below to frame your narrative and drive action:
 
-- Super Usage Interpretation Guide (PDF): [Super Usage Interpretation Guide](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Super%20User%202.0%20-%20Interpretation%20Guide.pdf)
-- Storyboard presentation template: [Super Usage Storyboard PPT Template](https://github.com/microsoft/DecodingSuperUsage/blob/224b5d8fa5742b9c405036c76691a783e0199b55/Superuser%20Analysis%20-%20Storyboard%20v3.pptx)  
+- Super Usage Interpretation Guide (PDF): [Interpretation Guide Super Usage Adoption](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Interpretation%20Guide%20Super%20Usage%20Adoption.pdf)
+- Storyboard presentation template: [Storyboard PPTX - Super User Adoption](https://github.com/microsoft/DecodingSuperUsage/blob/DecodingSuperUsage/Storyboard%20PPTX%20-%20Super%20User%20Adoption.pptx)  
 
 Use the included guides to:
 - Create an executive-ready presentation  
@@ -234,7 +226,7 @@ All you do: verify, tweak, ship.
 
 <br>
 
-We want to hear your feedback and suggestions. Please reach out to keithmcgrane@microsoft.com or jordanking@microsoft.com.
+We want to hear your feedback and suggestions. Please reach out to keithmcgrane@microsoft.com and jordanking@microsoft.com.
 
 </details>
 
@@ -252,5 +244,3 @@ We want to hear your feedback and suggestions. Please reach out to keithmcgrane@
 </details>
 
 ---
-
-
