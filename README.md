@@ -1,3 +1,12 @@
+# ℹ️ 🎉 **Power User Analysis is now in the Copilot Adoption PBI report in Viva Insights Analyst Workbench — prebuilt query included, simpler to light up.** 
+
+&nbsp;
+
+
+
+
+
+
 # Super Usage Analysis Template (Copilot + Viva Insights)
 
 <div align="center">
