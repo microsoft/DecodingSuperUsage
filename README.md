@@ -211,6 +211,54 @@ Use the included guides to:
 
 </details>
 
+<details>
+<summary><strong>Row Level Security (RLS) — Restrict Who Sees What</strong></summary>
+
+Row Level Security (RLS) lets you control which rows of data each viewer can see — for example, showing a Finance lead only Finance data. Setup happens in two places: **Power BI Desktop** (define roles) and **Microsoft Fabric** (assign members).
+
+### Step 1 — Define roles in Power BI Desktop
+
+1. Open the report in **Power BI Desktop**.
+2. Go to the **Modeling** tab → click **Manage roles**.
+3. Click **+ New** and give the role a descriptive name (e.g. `Finance`, `EMEA`, `Manager View`).
+4. Select the **Table** table on the left, then enter a DAX filter in the box on the right. The filter returns `TRUE` for rows this role is allowed to see.
+
+   **Common filters:**
+
+   | Goal | DAX filter |
+   |------|-----------|
+   | Filter by Organization | `'Table'[Organization] = "Finance"` |
+   | Filter by FunctionType | `'Table'[FunctionType] = "Sales"` |
+   | Show only the viewer's own data | `'Table'[PersonId] = USERPRINCIPALNAME()` |
+
+   > The `USERPRINCIPALNAME()` approach works when PersonId values are work email addresses. Each person will only see their own rows.
+
+5. Click **Save**. Repeat for each role you need.
+6. **Test (recommended):** In the **Modeling** tab, click **View as**, select a role, and confirm the report filters correctly. Click **Stop viewing** when done.
+
+### Step 2 — Publish the report
+
+Publish as normal: **File → Publish → Publish to Power BI** and select your workspace. The roles you defined are included automatically.
+
+### Step 3 — Assign members to roles in Microsoft Fabric
+
+1. Go to [app.fabric.microsoft.com](https://app.fabric.microsoft.com) and open your workspace.
+2. Find the **semantic model** (dataset icon — not the report itself).
+3. Click the **three-dot menu (...)** next to it and select **Security**.
+4. On the left, click a role name. On the right, search for a person's name, email address, or Azure AD security group, then click **Add**.
+5. Repeat for all roles, then click **Save**.
+
+> **Tip:** Use Azure AD security groups rather than individual emails. When someone joins or leaves a team, you update access in Azure AD instead of returning to Fabric.
+
+**Important notes:**
+- Workspace admins and report owners always see all data — RLS does not apply to them.
+- A viewer with no role assigned sees no data at all. Make sure every intended viewer is in at least one role.
+- A viewer assigned to multiple roles sees the union of access from all roles (OR logic, not AND).
+- RLS applies to all reports built on the same semantic model.
+- Works with both CSV and Direct Query setups.
+
+</details>
+
 </details>
 
 </details>
