@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> **v13 is here** — this release fixes a false "some Copilot Chat metrics are missing" warning and a Power BI refresh error caused by a missing DisplayName column.
+> **v13 is here** — this release adds compatibility with Viva Insights' newly consolidated Copilot Chat metrics (the old metrics are automatically rebuilt from the new merged ones, so every visual keeps working), and fixes a false "some Copilot Chat metrics are missing" warning plus a Power BI refresh error caused by a missing DisplayName column.
 >
 > **Download v13:** [CSV template](https://github.com/microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/Template%20-%20Super%20User%20Adoption%20CSV%20-v13.pbit) &nbsp;&middot;&nbsp; [Direct Query template](https://github.com/microsoft/DecodingSuperUsage/raw/DecodingSuperUsage/Template%20-%20Super%20User%20Adoption%20Direct%20Query%20-v13.pbit)
 
