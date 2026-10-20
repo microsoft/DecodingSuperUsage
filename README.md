@@ -28,6 +28,10 @@
 
 <br>
 
+**▶ [Watch the 2-minute overview](https://youtu.be/200PTKBtxk4)** — see what the report shows and why it matters.
+
+<br>
+
 **[Dashboard Preview ↓](#dashboard-preview)** &nbsp;·&nbsp; **[Instructions ↓](#instructions)** &nbsp;·&nbsp; **[Related Resources ↓](#related-resources)** &nbsp;·&nbsp; **[Email your Admin ↓](#email-your-admin)**
 
 <br>
@@ -46,6 +50,18 @@
   <img src="https://raw.githubusercontent.com/microsoft/DecodingSuperUsage/refs/heads/DecodingSuperUsage/images/SuperUser.gif" alt="Super User Adoption Dashboard Preview" width="100%" />
 
 </details>
+
+
+---
+
+<a id="watch-the-overview"></a>
+## Watch the overview
+
+A 2-minute tour — what the report shows, how super users emerge, and how to scale their patterns across your organization.
+
+[![Watch the 2-minute overview on YouTube](https://img.youtube.com/vi/200PTKBtxk4/maxresdefault.jpg)](https://youtu.be/200PTKBtxk4)
+
+**▶ [Watch on YouTube](https://youtu.be/200PTKBtxk4)**
 
 
 ---
